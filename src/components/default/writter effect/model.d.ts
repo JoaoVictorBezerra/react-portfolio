@@ -1,0 +1,3 @@
+interface WritterEffectProps {
+  texts: string[];
+}
