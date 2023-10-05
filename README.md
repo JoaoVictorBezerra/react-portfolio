@@ -1,27 +1,39 @@
-# React + TypeScript + Vite
+# Portfólio João Victor.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Informações do Projeto
+## Tecnologias utilizadas
 
-Currently, two official plugins are available:
+- UI/UX: _Figma_
+- Framework: _React.js_
+- Estilização: _Tailwind, Tailwind Merge, Typewriter, Framer Motion_
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Adicionais
+[Protótipo do projeto.](https://www.figma.com/file/oSi2qKfM08ahThg8o8hTKU/Portf%C3%B3lio%2FV1-Jo%C3%A3o-Victor?type=design&node-id=0%3A1&mode=design&t=TytSyToZ1MNhBYcX-1)
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1 - Clonar o repositório:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```
+git clone https://github.com/JoaoVictorBezerra/react-portfolio.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2 - Instalar as dependências
+
+```
+yarn install
+```
+
+3 - Iniciar o projeto
+
+```
+yarn dev
+```
+
+4 - Buildar a aplicação
+
+```
+yarn build
+```
+
+
