@@ -1,4 +1,4 @@
-import { Code2, Home, Info, Plus, Send } from "lucide-react";
+import { BugPlay, Home, Info, Plus, Send } from "lucide-react";
 
 export const NavbarConstants = [
   {
@@ -19,12 +19,12 @@ export const NavbarConstants = [
   {
     name: "Experiência",
     href: "#experience",
-    icon: Code2,
+    icon: BugPlay,
   },
   // {
   //   name: "Projetos",
   //   href: "#projects",
-  //   icon: Camera,
+  //   icon: Folder,
   // },
   {
     name: "Contato",

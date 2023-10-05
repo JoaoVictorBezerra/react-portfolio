@@ -26,7 +26,7 @@ export function NavbarDesktop() {
   }
   return (
     <div className="navbar-blur shadow-navbar-shadow fixed left-6 right-6 top-6 z-50 mx-auto w-[calc(460px+2rem)] bg-background/50 rounded-xl">
-      <nav className="hidden container mx-auto py-4 max-w-content lg:inline-flex items-center justify-center">
+      <nav className="hidden container mx-auto py-4 max-w-content md:inline-flex items-center justify-center">
         <ul className="flex justify-center items-center gap-2 text-sm tracking-label">
           {NavbarConstants.map((page, index) => <NavbarList key={`data-${index}`} href={page.href} name={page.name} handleClick={handleScroll} />)}
         </ul>

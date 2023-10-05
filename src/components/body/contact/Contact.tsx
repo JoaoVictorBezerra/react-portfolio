@@ -9,7 +9,7 @@ export function Contact() {
         <Title props="05.Contato" />
         <p className="text-sm text-text-secondary mt-2">Deixarei meu currículo e o meu <a className="text-primary" href="mailto:dev.joaovictor@hotmail.com" target="_blank">email</a> abaixo caso você queira entrar em contato comigo. Sinta-se a vontade!</p>
         <p className="text-sm text-text-secondary">Também deixarei o meu <a className="text-primary" href="https://www.linkedin.com/in/jo%C3%A3o-victor-bezerra-a62b62204/" target="_blank">Linkedin</a> para você fazer uma conexão.</p>
-        <Button>Download CV</Button>
+        <a href="https://drive.google.com/file/d/1C80C6CTxwSrwo01Dp8aa0YQkKKPmKyv1/view?usp=sharing" target="_blank"><Button>Download CV</Button></a>
       </AnimationEffect>
     </section>
   );

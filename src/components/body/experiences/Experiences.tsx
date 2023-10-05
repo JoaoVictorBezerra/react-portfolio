@@ -35,8 +35,8 @@ export function Experiences() {
       <AnimationEffect
       >
         <Title props="04.Experiências" />
-        <div className="flex flex-col lg:flex-row gap-5">
-          <div className="flex lg:flex-col items-center text-center lg:text-start lg:items-start">
+        <div className="flex flex-col md:flex-row gap-5">
+          <div className="flex md:flex-col items-center text-center md:text-start md:items-start">
             {
               ExperienceConstants.map((company) => {
                 return <span className="text-sm cursor-pointer px-[10px] py-[5px] rounded-sm duration-500 mt-2 tracking-label text-primary hover:bg-background-opacity" id="company" onClick={handleButtonClick} key={`data-${company.company.split(" ").join("-").toLowerCase()}`}>{company.company}</span>;
